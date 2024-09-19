@@ -66,6 +66,26 @@ fun MusicApp(songs: List<Song>) {
             }
         }
 
+        Row {
+            Button(onClick = { if (currentSongIndex > 0) currentSongIndex-- }) {
+                Text("Previous")
+            }
+            Spacer(modifier = Modifier.width(16.dp))
+            Button(onClick = { if (currentSongIndex < songs.size - 1) currentSongIndex++ }) {
+                Text("Next")
+            }
+        }
+
+        Row {
+            Button(onClick = { if (currentSongIndex > 0) currentSongIndex-- }) {
+                Text("Previous")
+            }
+            Spacer(modifier = Modifier.width(16.dp))
+            Button(onClick = { if (currentSongIndex < songs.size - 1) currentSongIndex++ }) {
+                Text("Next")
+            }
+        }
+
 
     }
 }
