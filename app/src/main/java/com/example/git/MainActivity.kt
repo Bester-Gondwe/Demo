@@ -23,6 +23,11 @@ class MainActivity : ComponentActivity() {
         Song("Song Title 2", "Artist 2", "Album 2", 180),
         Song("Song Title 3", "Artist 3", "Album 3", 240),
         Song("Song Title 4", "Artist 4", "Album 4", 200),
+        Song("Song Title 5", "Artist 5", "Album 5", 215),
+        Song("song1.mp3", "Artist 1", "Album 1", 210),
+        Song("Song Title 2", "Artist 2", "Album 2", 180),
+        Song("Song Title 3", "Artist 3", "Album 3", 240),
+        Song("Song Title 4", "Artist 4", "Album 4", 200),
         Song("Song Title 5", "Artist 5", "Album 5", 215)
     )
 
